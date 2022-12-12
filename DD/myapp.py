@@ -64,7 +64,7 @@ model = load_model("./DD/model.h5")
 #                 st.markdown('no face', unsafe_allow_html=True)
 
 # define a video capture object
-vid = cv2.VideoCapture(-1)
+vid = cv2.VideoCapture(0)
 result = st.empty()
 pre = st.empty()
 if st.button('Start'):
