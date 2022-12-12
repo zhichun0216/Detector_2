@@ -67,8 +67,9 @@ model = load_model("./DD/model.h5")
 
 result = st.empty()
 pre = st.empty()
-vid = cv2.VideoCapture(cv2.CAP_V4L2)
+
 if st.button('Start'):
+    vid = cv2.VideoCapture(cv2.CAP_V4L2)
     while(True):
         
 
