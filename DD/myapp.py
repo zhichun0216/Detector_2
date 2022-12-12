@@ -68,7 +68,7 @@ model = load_model("./DD/model.h5")
 result = st.empty()
 pre = st.empty()
 if st.button('Start'):
-    vid = cv2.VideoCapture(0)
+    vid = cv2.VideoCapture(1)
     while(True):
         time.sleep(0.1)
         # Capture the video frame
