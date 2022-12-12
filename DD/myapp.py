@@ -31,7 +31,7 @@ st.markdown(""" <style> .font {
 font-size:50px ; color: red;} 
 </style> """, unsafe_allow_html=True)
 
-model = load_model("DD\model.h5")
+model = load_model("model.h5")
 
 # st.subheader("Image")
 # image_file = st.file_uploader("Upload Images", type=["png","jpg","jpeg"])
