@@ -69,7 +69,7 @@ result = st.empty()
 pre = st.empty()
 
 if st.button('Start'):
-    vid = cv2.VideoCapture(cv2.CAP_V4L2)
+    vid = cv2.VideoCapture(0)
     while(True):
         
 
