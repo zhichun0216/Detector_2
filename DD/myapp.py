@@ -87,12 +87,12 @@ if st.button('Start'):
                 # st.markdown(np.argmax(prediction), unsafe_allow_html=True)
                 pre.markdown(prediction)
                 if np.argmax(prediction) == 0:
-                        result.markdown("drowsy")
+                        result.markdown('<strong class="font">Drowsiness Alert!!</strong>', unsafe_allow_html=True)
                 else:
-                        result.markdown("normal")
+                        result.markdown('<strong class="font">Normal</strong>', unsafe_allow_html=True)
                         
-        else:
-                result.markdown("noface")
+        # else:
+        #         result.markdown("noface")
         # Display the resulting frame
         if location == []:
                 cv2.imshow('frame', frame)
