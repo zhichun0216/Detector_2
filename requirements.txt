@@ -78,3 +78,4 @@ wrapt==1.14.1
 zipp==3.11.0
 skia-python==87.5
 opencv-python-headless==4.6.0.66
+streamlit-webrtc==0.44.0

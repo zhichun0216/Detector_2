@@ -4,12 +4,9 @@ from tensorflow.keras.models import load_model
 import cv2
 import numpy as np
 import time
+from streamlit_webrtc import webrtc_streamer
 
-
-
-def load_image(image_file):
-	img = Image.open(image_file)
-	return img
+# webrtc_streamer(key="key")
 
 labels_new = ["yawn", "no_yawn"]
 IMG_SIZE = 145
